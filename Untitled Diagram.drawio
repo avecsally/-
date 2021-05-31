@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T08:55:58.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.7.2" etag="aJhRYsa7EY36v6db1x-h" type="github"><diagram id="ShHiN2n3eKKXzdHq9HxD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-31T06:01:28.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="_OvwHA2IdCFDTOQZ8O3d" version="14.7.3" type="github">
+  <diagram id="ShHiN2n3eKKXzdHq9HxD" name="Page-1">
+    <mxGraphModel dx="397" dy="204" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d79b00;shadow=0;fillColor=#ffe6cc;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-3" value="&lt;font style=&quot;font-size: 12px&quot;&gt;A: 依据评论总数N排序前10%&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=90;fontStyle=1;fontColor=#00331A;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-4" value="&lt;span style=&quot;font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-decoration: none; display: inline; float: none;&quot;&gt;B: 依据评论点赞总量L排序前10%&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontStyle=1;fontColor=#663300;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="410" y="285" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-5" value="在A不在B：评论总数N前10%但评论点赞总量L不在" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=90;fontColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-6" value="在B不在A：评论点赞总量L前10%但评论总数N不在" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=90;fontColor=#CC6600;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-9" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.pointed_oval;shadow=0;fillColor=#f8cecc;align=center;opacity=90;labelBackgroundColor=none;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="345" y="335" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AKb-sp3TWjWLQbtXxZn1-7" value="AB交集：评论总数N及评论点赞总量L均在前10%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;opacity=90;fontColor=#994C00;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
